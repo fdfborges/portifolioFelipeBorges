@@ -13,8 +13,8 @@ export default function Apresentation() {
                     architectures on the Amazon AWS platform.</span>
             </div>
             <div className="containerButtons">
-                <button id='BtnBackgroundWhite'>Contato</button>
-                <button>Baixar CV</button>
+                <a id='BtnBackgroundWhite'>Contato</a>
+                <a href='../../../public/docs/Curriculo.pdf'download="CurriculoFelipeBorges.pdf">Baixar CV</a>
             </div>
         </div>
     )

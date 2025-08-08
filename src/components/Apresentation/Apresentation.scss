@@ -58,7 +58,11 @@
         display: flex;
         gap: 1rem;
 
-        button {
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
             width: 10rem;
             height: 3rem;
             border-radius: 30px;
@@ -68,7 +72,7 @@
             color: $primaryWhite;
             border: 2px solid $primaryWhite;
             background-color: $primaryBlack;
-
+            cursor: pointer;
             &:hover {
                 background-color: #343333;
                 transition: 0.2s;
