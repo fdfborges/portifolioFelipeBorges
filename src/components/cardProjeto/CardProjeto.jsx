@@ -4,12 +4,12 @@ import MinRicardoMontenegro from '../../assets/MiniaturasCards/MinRicardoMontene
 import { FiArrowUpRight } from "react-icons/fi";
 
 
-export default function CardProjeto() {
+export default function CardProjeto(TituloCard, ImgCard) {
     return (
         <>
             <div className="containerCardProjetoC">
                 <div className="imgCard">
-                    <img src={MinRicardoMontenegro} alt="" />
+                    <img src={MinRicardoMontenegro} alt="Foto miniatura do projeto" />
                 </div>
                 <div className="footerCard">
                     <di className="footerCardLeft">
