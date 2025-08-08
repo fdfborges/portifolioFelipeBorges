@@ -8,6 +8,7 @@ import { ImWhatsapp } from "react-icons/im";
 
 
 export default function Footer() {
+
     return (
         <div className="containerFooterPrincipal">
             <div className="FooterDelimitador">
