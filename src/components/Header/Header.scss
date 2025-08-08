@@ -1,0 +1,48 @@
+@import '../fonts/font.scss';
+@import '../palletColor/palletColor.scss';
+
+.containerHeaderPrincipal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4.6rem;
+    background-color: $secondaryBlack;
+
+
+    .containerHeadeLeft {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            color: $primaryWhite;
+            font-family: $font-body;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+    }
+
+    .containerHeadeRight {
+        flex: 2;
+
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            padding: 0 12rem;
+
+            li {
+                font-family: $font-headings;
+                font-weight: 600;
+                color: $primaryWhite;
+                list-style: none;
+                font-size: 0.9rem;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+        }
+
+
+    }
+}
