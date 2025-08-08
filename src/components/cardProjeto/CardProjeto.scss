@@ -5,8 +5,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 20rem;
-    height: 15rem;
+    width: 25rem;
+    height: 18rem;
     border-radius: 20px;
     background-color: $secondaryBlack;
 
@@ -46,7 +46,7 @@
                 font-weight: 800;
                 font-size: 0.6rem;
                 color: $primaryGray;
-                line-height: 1
+                line-height: 1.5
             }
 
             p {

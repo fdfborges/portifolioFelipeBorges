@@ -6,10 +6,14 @@ import CardProjeto from '../cardProjeto/cardProjeto';
 export default function Projetos() {
   return (
     <>
-    <div className="containerProjetosPrincipal">
+      <div className="containerProjetosPrincipal">
         <p>PROJETOS</p>
-        <CardProjeto />
-    </div>
+        <div className="containerGridProjetos">
+          <CardProjeto />
+          <CardProjeto />
+          <CardProjeto />
+        </div>
+      </div>
     </>
   )
 }
