@@ -10,10 +10,9 @@ export default function Apresentation({secaoRef1}) {
             </div>
             <div className="containerTexts">
                 <p>Apresento seu serviço ao mundo <strong>atrávez de um site!</strong></p>
-                <span>I am a seasoned full-stack software engineer with over
-                    8 years of professional experience, specializing in backend development.
-                    My expertise lies in crafting robust and scalable SaaS-based
-                    architectures on the Amazon AWS platform.</span>
+                <span>Engenheiro de Software Front-end com uma sólida experiência de 5+ anos no mercado, dominando a arte de construir projetos bem arquitetados.
+
+Minha especialidade é desenvolver aplicações que se destacam pela qualidade técnica e pela usabilidade. Priorizo a escrita de um código limpo, modular e de fácil manutenção, o que facilita o crescimento do produto.</span>
             </div>
             <div className="containerButtons">
                 <a id='BtnBackgroundWhite'>Contato</a>
