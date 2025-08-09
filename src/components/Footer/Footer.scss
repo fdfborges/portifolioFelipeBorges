@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     background-color: $secondaryBlack;
-    
+
     .FooterDelimitador {
         display: flex;
         flex-direction: column;
@@ -32,13 +32,13 @@
             line-height: 1.5;
         }
 
-        .containerEmail{
+        .containerEmail {
             margin-top: 1rem;
             display: flex;
             align-items: center;
             gap: 0.4rem;
 
-            a{
+            a {
                 font-family: $font-body;
                 color: $primaryWhite;
                 font-weight: 600;
@@ -47,10 +47,17 @@
             }
         }
 
-        .containerIconsSocial{
+        .containerIconsSocial {
             margin-top: 1rem;
             display: flex;
             gap: 1rem;
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .FooterDelimitador {
+        text-align: center;
+        align-items: center;
     }
 }

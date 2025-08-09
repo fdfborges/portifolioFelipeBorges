@@ -21,7 +21,7 @@ export default function Footer({secaoRef4}) {
                 </div>
                 <div className="containerIconsSocial">
                     <a target='_blank' href="https://w.app/ojptdh"><ImWhatsapp color='white' size={'1.6rem'}/></a>
-                    <a target='_blank' href="https://www.instagram.com/fdfborges/"><FaInstagram color='white' size={'1.6rem'}/></a>
+                    <a target='_blank' href="https://www.instagram.com/fdfborges/"><FaInstagram color='white' size={'1.6rem'} /></a>
                 </div>
             </div>
         </div>
