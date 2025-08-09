@@ -20,8 +20,13 @@ export default function Footer({secaoRef4}) {
                     <a href="mailto:felipedefreitasborges@gmail.com">felipedefreitasborges@gmail.com</a>
                 </div>
                 <div className="containerIconsSocial">
+<<<<<<< HEAD
                     <a target='_blank' href="https://w.app/ojptdh"><ImWhatsapp color='white' size={'1.6rem'}/></a>
                     <a target='_blank' href="https://www.instagram.com/fdfborges/"><FaInstagram color='white' size={'1.6rem'}/></a>
+=======
+                    <a href="https://w.app/ojptdh"><ImWhatsapp color='white' size={'1.6rem'}/></a>
+                    <a href="https://www.instagram.com/fdfborges/"><FaInstagram color='white' size={'1.6rem'}/></a>
+>>>>>>> 67fdea9fe3c4f7c07ad3fd00b506a9093cc91cca
                 </div>
             </div>
         </div>
