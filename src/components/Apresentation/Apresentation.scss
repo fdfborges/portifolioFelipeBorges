@@ -47,8 +47,7 @@
                         #b5179e,
                         #7209b7,
                         #480ca8,
-                        #f72585
-                    );
+                        #f72585);
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
@@ -139,4 +138,23 @@
             }
         }
     }
+}
+
+@media (max-width: 768px) {
+    .containerApresentationPrincipal {
+        gap: 3rem;
+
+        .containerTexts {
+
+            p {
+                width: 90% !important;
+
+            }
+
+            span {
+                width: 90% !important;
+            }
+        }
+    }
+
 }
