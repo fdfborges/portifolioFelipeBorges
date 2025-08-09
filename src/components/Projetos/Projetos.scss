@@ -28,7 +28,14 @@
         justify-items: center;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 3fr);
         gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerProjetosPrincipal{
+        height: 100%;
+        padding-bottom: 5rem;
     }
 }
