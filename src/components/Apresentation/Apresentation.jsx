@@ -2,9 +2,9 @@ import React from 'react';
 import './Apresentation.scss';
 import AvatarFelipe from '../../assets/AvatarFelipe/AvatarFelipe.png';
 
-export default function Apresentation() {
+export default function Apresentation({secaoRef1}) {
     return (
-        <div className="containerApresentationPrincipal">
+        <div className="containerApresentationPrincipal" ref={secaoRef1}>
             <div className="containerAvatar">
                 <img src={AvatarFelipe} alt="" />
             </div>

@@ -3,17 +3,17 @@ import './Projetos.scss';
 import CardProjeto from '../cardProjeto/cardProjeto';
 
 
-export default function Projetos() {
+export default function Projetos({ secaoRef3 }) {
   return (
     <>
-      <div className="containerProjetosPrincipal">
+      <div className="containerProjetosPrincipal" ref={secaoRef3}>
         <p>PROJETOS</p>
-        <div className="containerGridProjetos">
-          <CardProjeto />
-          <CardProjeto />
-          <CardProjeto />
-        </div>
+      <div className="containerGridProjetos">
+        <CardProjeto />
+        <CardProjeto />
+        <CardProjeto />
       </div>
+    </div >
     </>
   )
 }

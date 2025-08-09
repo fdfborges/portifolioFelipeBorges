@@ -1,18 +1,39 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Header from '../../components/Header/Header.jsx'
 import Apresentation from '../../components/Apresentation/Apresentation.jsx'
 import Experience from '../../components/Experience/Experience.jsx'
 import Projetos from '../../components/Projetos/Projetos.jsx'
 import Footer from '../../components/Footer/Footer.jsx'
-
+import './Home.scss';
 export default function Home() {
+
+  const secaoRef1 = useRef(null);
+  const secaoRef2 = useRef(null);
+  const secaoRef3 = useRef(null);
+  const secaoRef4 = useRef(null);
+
+  const rolarParaSecao = (ref) => {
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
+
   return (
     <>
-      <Header />
-      <Apresentation />
-      <Experience />
-      <Projetos />
-      <Footer />
+      <Header
+        onScrollTo={rolarParaSecao}
+        secaoRef1={secaoRef1}
+        secaoRef2={secaoRef2}
+        secaoRef3={secaoRef3}
+        secaoRef4={secaoRef4}
+      />
+      <div className="containerHomeProjectPrincipal">
+        <Apresentation secaoRef1={secaoRef1} />
+        <Experience secaoRef2={secaoRef2} />
+        <Projetos secaoRef3={secaoRef3} />
+        <Footer secaoRef4={secaoRef4} />
+      </div>
     </>
   )
 }
