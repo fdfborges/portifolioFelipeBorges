@@ -37,3 +37,18 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .experiencecontainerPrincipal {
+        gap: 2rem;
+
+        .experiencecontainerImg {
+            width: 90%;
+            padding-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 1rem;
+        }
+    }
+}
