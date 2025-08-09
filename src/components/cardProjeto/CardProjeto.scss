@@ -1,0 +1,73 @@
+@import '../fonts/font.scss';
+@import '../palletColor/palletColor.scss';
+
+.containerCardProjetoC {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 18rem;
+    border-radius: 20px;
+    background-color: $secondaryBlack;
+
+    .imgCard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 20px;
+
+        img {
+            width: 200%;
+            height: auto;
+        }
+    }
+
+    .footerCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+        height: 25%;
+        position: absolute;
+        bottom: 0;
+        background-color: $secondaryBlack;
+        padding-left: 1rem;
+        box-sizing: border-box;
+
+        .footerCardLeft {
+
+            span,
+            p {
+                font-family: $font-body;
+                font-weight: 800;
+                font-size: 0.6rem;
+                color: $primaryGray;
+                line-height: 1.5
+            }
+
+            p {
+                font-size: 1rem;
+                color: $primaryWhite;
+            }
+        }
+
+        .footerCardRight {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: right;
+                padding-right: 1rem;
+            }
+        }
+
+    }
+}

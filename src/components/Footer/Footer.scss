@@ -1,0 +1,56 @@
+@import '../fonts/font.scss';
+@import '../palletColor/palletColor.scss';
+
+.containerFooterPrincipal {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $secondaryBlack;
+    
+    .FooterDelimitador {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        gap: 1rem;
+
+
+        p {
+            font-family: $font-body;
+            color: $primaryWhite;
+            font-weight: 700;
+            font-size: 25px;
+            margin-bottom: 1rem;
+        }
+
+        span {
+            font-family: $font-body;
+            color: $primaryGray;
+            opacity: 70%;
+            line-height: 1.5;
+        }
+
+        .containerEmail{
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+
+            a{
+                font-family: $font-body;
+                color: $primaryWhite;
+                font-weight: 600;
+                opacity: 100%;
+                text-decoration: none;
+            }
+        }
+
+        .containerIconsSocial{
+            margin-top: 1rem;
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
