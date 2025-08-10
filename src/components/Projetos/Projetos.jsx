@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projetos.scss';
-import CardProjeto from '../cardProjeto/cardProjeto';
+import CardProjeto from '../cardProjeto/CardProjeto';
 
 
 export default function Projetos({ secaoRef3 }) {
