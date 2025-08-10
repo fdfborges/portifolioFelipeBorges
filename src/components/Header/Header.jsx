@@ -1,7 +1,10 @@
 import React from 'react'
 import './Header.scss';
+import NavResponsive from '../NavResponsive/NavResponsive';
 
-export default function Header({ onScrollTo, secaoRef1, secaoRef2, secaoRef3, secaoRef4 }) {
+export default function Header({ onScrollTo, rolarParaSecao, secaoRef1, secaoRef2, secaoRef3, secaoRef4 }) {
+
+
   return (
     <div className="containerHeaderPrincipal">
       <div className="containerHeadeLeft">

@@ -1,0 +1,28 @@
+@import '../fonts/font.scss';
+@import '../palletColor/palletColor.scss';
+
+.navbar-custom {
+    background-color: $secondaryBlack;
+}
+
+.navbar-custom .nav-link {
+    font-family: $font-body;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $primaryWhite !important;
+
+    &:hover {
+        color: $primaryGray !important;
+    }
+
+    &:active {
+        color: $primaryGray !important;
+    }
+}
+
+.navbar-custom .navbar-brand {
+    color: $primaryWhite !important;
+    font-family: $font-body;
+    font-weight: 700;
+    font-size: 1.3rem;
+}

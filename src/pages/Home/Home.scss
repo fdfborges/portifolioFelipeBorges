@@ -1,3 +1,18 @@
+@import '../../components/fonts/font.scss';
+@import '../../components/palletColor/palletColor.scss';
+
+@media (min-width: 769px) {
+    .containerNavResponsive {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerHeader {
+        display: none;
+    }
+}
+
 .containerHomeProjectPrincipal{
-    
+    background-color: $primaryBlack;
 }
