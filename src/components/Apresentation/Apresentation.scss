@@ -10,18 +10,26 @@
     align-items: center;
     color: white;
     gap: 2rem;
-    padding: 7rem 0rem;
+    padding: 6rem 0rem;
     background-color: $primaryBlack;
 
     .containerAvatar {
-        width: 10rem;
-        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13rem;
+        height: 13rem;
+        // width: 10rem;
+        // height: 10rem;
         border-radius: 50%;
         background-color: purple;
         overflow: hidden;
 
-        img {
-            width: 10rem;
+        video {
+            padding-top: 1rem;
+            padding-left: 1rem;
+            width: 23rem;
+            
 
         }
 

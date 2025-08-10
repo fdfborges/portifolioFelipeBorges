@@ -1,12 +1,13 @@
 import React from 'react';
 import './Apresentation.scss';
 import AvatarFelipe from '../../assets/AvatarFelipe/AvatarFelipe.png';
+import AvatarFelipeMemoji from '../../assets/AvatarFelipe/AvatarFelipeMemoji.mp4';
 
 export default function Apresentation({ secaoRef1 }) {
     return (
         <div className="containerApresentationPrincipal" ref={secaoRef1}>
             <div className="containerAvatar">
-                <img src={AvatarFelipe} alt="" />
+                <video loop autoPlay src={AvatarFelipeMemoji} alt="" />
             </div>
             <div className="containerTexts">
                 <p>Apresento seu serviço ao mundo <strong>atrávez de um site!</strong></p>
