@@ -3,7 +3,7 @@
 
 
 .experiencecontainerPrincipal {
-    padding-top: 3rem;
+
     width: 100%;
     height: 30%;
     display: flex;
@@ -41,6 +41,7 @@
 @media (max-width: 768px) {
     .experiencecontainerPrincipal {
         gap: 2rem;
+        padding-top: 3rem;
 
         .experiencecontainerImg {
             width: 90%;

@@ -17,7 +17,9 @@
         align-items: center;
         justify-content: center;
 
+
         p {
+            margin: 0 !important;
             color: $primaryWhite;
             font-family: $font-body;
             font-weight: 700;
@@ -46,12 +48,6 @@
             }
         }
 
-
-    }
-}
-
-@media (max-width: 768px) {
-    .containerHeaderPrincipal {
 
     }
 }

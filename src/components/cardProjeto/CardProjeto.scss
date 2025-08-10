@@ -79,3 +79,19 @@
     }
 
 }
+
+@media (max-width: 380px) {
+    .containerCardProjetoC {
+        width: 20rem;
+        height: 15rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .containerCardProjetoC {
+        width: 17rem;
+        height: 12rem;
+    }
+
+}
