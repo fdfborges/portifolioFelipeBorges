@@ -1,23 +1,21 @@
 import React from 'react'
 import './CardProjeto.scss';
-import MinRicardoMontenegro from '../../assets/MiniaturasCards/MinRicardoMontenegro.png';
 import { FiArrowUpRight } from "react-icons/fi";
 
-
-export default function CardProjeto(TituloCard, ImgCard) {
+export default function CardProjeto({ TituloCard, ImgCard, LinkProjeto }) {
     return (
         <>
             <div className="containerCardProjetoC">
                 <div className="imgCard">
-                    <img src={MinRicardoMontenegro} alt="Foto miniatura do projeto" />
+                    <img src={ImgCard} alt={`Foto miniatura do projeto ${TituloCard}`} />
                 </div>
                 <div className="footerCard">
                     <div className="footerCardLeft">
                         <span>CLIQUE ACESSAR</span>
-                        <p>TITULO PROJETO</p>
+                        <p>{TituloCard}</p>
                     </div>
                     <div className="footerCardRight">
-                        <a href=""><FiArrowUpRight size={'15%'} color='white' /></a>
+                        <a href={LinkProjeto} target="_blank" rel="noopener noreferrer"><FiArrowUpRight size={'15%'} color='white' /></a>
                     </div>
                 </div>
             </div>
