@@ -23,6 +23,11 @@
         .containerImgAndParagraphExperieceCard {
             display: flex;
             align-items: center;
+            justify-content: right;
+            gap: 1rem;
+            
+            
+            
 
             .span-title {
                 font-family: $font-body;
@@ -33,22 +38,26 @@
             }
 
             .containerImgExperienceCardHeader {
-                width: 3rem;
-                height: 3rem;
+                width: 2.6rem;
+                height: 2.6rem;
                 display: flex;
                 align-items: center;
-                justify-content: left;
+                justify-content: center;
+                border-radius: 100%;
+                overflow: hidden;
+                
 
                 .containerDateExperienceCardHeader {
                     span {
                         font-size: 14.49px;
                         color: $primaryGray;
                         font-weight: 100;
+                        
                     }
                 }
 
                 img {
-                    height: 60%;
+                    height: 100%;
                     -webkit-user-select: none;
                     -moz-user-select: none;
                     -ms-user-select: none;
@@ -57,6 +66,14 @@
 
                 }
             }
+        }
+    }
+    .ExperienceTechnologies{
+        opacity: 100%;
+        color: $primaryWhite;
+        font-weight: 400;
+        strong{
+            font-weight: 700;
         }
     }
 }

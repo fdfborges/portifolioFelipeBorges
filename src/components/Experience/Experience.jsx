@@ -1,4 +1,5 @@
 import ExperienceCard from '../ExperienceCard/ExperienceCard';
+import LogoAilouise from '../../assets/LogoEmpresasExperience/LogoAilouise.jpg';
 import './Experience.scss';
 
 
@@ -8,9 +9,7 @@ export default function Experience() {
         <>
             <div className="divcontainerExperience">
                 <p>EXPERIENCIA </p>
-                <ExperienceCard TituloCard={"Lead Software Engineer at Google"} ConteudoCard={"As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide."} Data={"Nov 2019 - Present"} LogoEmpresa={"https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s48-fcrop64=1,00000000ffffffff-rw"}/>
-                <ExperienceCard TituloCard={"Lead Software Engineer at Google"} ConteudoCard={"As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide."} Data={"Nov 2019 - Present"} LogoEmpresa={"https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s48-fcrop64=1,00000000ffffffff-rw"}/>
-                <ExperienceCard TituloCard={"Lead Software Engineer at Google"} ConteudoCard={"As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide."} Data={"Nov 2019 - Present"} LogoEmpresa={"https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s48-fcrop64=1,00000000ffffffff-rw"}/>
+                <ExperienceCard TituloCard={"Desenvolvedor Junior na aiLouise"} ConteudoCard={"Fui responsável pelo desenvolvimento e implementação de novas funcionalidades, bem como pela manutenção das funcionalidades existentes na página de apresentação da inteligência artificial aiLousie. Meu foco era garantir uma experiência de usuário fluida e intuitiva, aplicando conceitos de UX para aprimorar a interação do cliente com a plataforma."} Data={"Jan 2023 - Fev 2024"} LogoEmpresa={LogoAilouise} Technologies={" #ReactJS, #NextJS, #Sass, #Jest"}/>
             </div>
         </>
     )

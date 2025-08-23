@@ -1,7 +1,7 @@
 import './ExperienceCard.scss';
 
 
-export default function ExperienceCard({ TituloCard, ConteudoCard, Data, LogoEmpresa }) {
+export default function ExperienceCard({ TituloCard, ConteudoCard, Data, LogoEmpresa, Technologies }) {
 
     return (
         <>
@@ -20,6 +20,7 @@ export default function ExperienceCard({ TituloCard, ConteudoCard, Data, LogoEmp
                 <span>
                     {ConteudoCard}
                 </span>
+                <span className='ExperienceTechnologies'><strong>Tecnologias Desempenhadas:</strong>{Technologies}</span>
             </div>
         </>
     )
