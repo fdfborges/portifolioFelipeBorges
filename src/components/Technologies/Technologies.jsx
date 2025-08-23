@@ -1,5 +1,5 @@
 import React from 'react'
-import './Experience.scss';
+import './Technologies.scss';
 
 import CSS from '../../assets/IconsExperience/css.png';
 import HTML from '../../assets/IconsExperience/html.png';

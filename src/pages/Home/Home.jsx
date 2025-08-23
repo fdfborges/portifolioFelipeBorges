@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import Header from '../../components/Header/Header.jsx'
 import Apresentation from '../../components/Apresentation/Apresentation.jsx'
-import Experience from '../../components/Experience/Experience.jsx'
+import Technologies from '../../components/Technologies/Technologies.jsx'
 import Projetos from '../../components/Projetos/Projetos.jsx'
 import Footer from '../../components/Footer/Footer.jsx'
 import './Home.scss';
@@ -43,7 +43,7 @@ export default function Home() {
 
       <div className="containerHomeProjectPrincipal">
         <Apresentation secaoRef1={secaoRef1} />
-        <Experience secaoRef2={secaoRef2} />
+        <Technologies secaoRef2={secaoRef2} />
         <Projetos secaoRef3={secaoRef3} />
         <Footer secaoRef4={secaoRef4} />
       </div>
