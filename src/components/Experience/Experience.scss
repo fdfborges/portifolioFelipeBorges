@@ -6,8 +6,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 3rem;
+
 
     p {
+        padding-bottom: 2rem;
         font-family: $font-body;
         font-size: 35px;
         font-weight: 900;
