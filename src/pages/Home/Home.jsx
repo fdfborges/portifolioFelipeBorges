@@ -6,6 +6,7 @@ import Projetos from '../../components/Projetos/Projetos.jsx'
 import Footer from '../../components/Footer/Footer.jsx'
 import './Home.scss';
 import NavResponsive from '../../components/NavResponsive/NavResponsive.jsx'
+import Experience from '../../components/Experience/Experience.jsx'
 export default function Home() {
 
   const secaoRef1 = useRef(null);
@@ -45,6 +46,7 @@ export default function Home() {
         <Apresentation secaoRef1={secaoRef1} />
         <Technologies secaoRef2={secaoRef2} />
         <Projetos secaoRef3={secaoRef3} />
+        <Experience />
         <Footer secaoRef4={secaoRef4} />
       </div>
     </>

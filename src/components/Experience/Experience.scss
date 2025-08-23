@@ -1,0 +1,19 @@
+@import '../../components/fonts/font.scss';
+@import '../../components/palletColor/palletColor.scss';
+
+.divcontainerExperience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+        font-family: $font-body;
+        font-size: 35px;
+        font-weight: 900;
+        background: linear-gradient(200deg, rgb(32, 125, 217) 0%, rgb(80, 164, 248) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}
