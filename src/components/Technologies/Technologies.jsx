@@ -8,9 +8,9 @@ import REACT from '../../assets/IconsExperience/reactjs.png';
 import WORDPRESS from '../../assets/IconsExperience/wordpress.png';
 
 
-export default function Technologies({ secaoRef2 }) {
+export default function Technologies() {
     return (
-        <div className="experiencecontainerPrincipal" ref={secaoRef2}>
+        <div className="experiencecontainerPrincipal" >
             <p>EXPERIENCIA COM</p>
             <div className="experiencecontainerImg">
                 <img src={WORDPRESS} alt="Icone Wordpress" />

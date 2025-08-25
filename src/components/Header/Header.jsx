@@ -13,8 +13,8 @@ export default function Header({ onScrollTo, rolarParaSecao, secaoRef1, secaoRef
       <div className="containerHeadeRight">
         <div className='containerButtonsHeader'>
           <button onClick={() => onScrollTo(secaoRef1)}>Home</button>
-          <button onClick={() => onScrollTo(secaoRef2)}>Experiência</button>
           <button onClick={() => onScrollTo(secaoRef3)}>Projetos</button>
+          <button onClick={() => onScrollTo(secaoRef2)}>Experiência</button>
           <button onClick={() => onScrollTo(secaoRef4)}>Contato</button>
         </div>
       </div>

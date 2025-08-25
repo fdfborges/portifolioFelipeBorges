@@ -44,9 +44,9 @@ export default function Home() {
 
       <div className="containerHomeProjectPrincipal">
         <Apresentation secaoRef1={secaoRef1} />
-        <Technologies secaoRef2={secaoRef2} />
+        <Technologies />
         <Projetos secaoRef3={secaoRef3} />
-        <Experience />
+        <Experience secaoRef2={secaoRef2} />
         <Footer secaoRef4={secaoRef4} />
       </div>
     </>
